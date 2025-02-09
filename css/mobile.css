@@ -1,5 +1,10 @@
 @media screen and (min-width:375px) and (max-width:767px){
 
+body{
+    overflow-x: hidden;
+}
+
+
 .body2 {
     font-weight: 700;
     font-size: 14px;
@@ -85,7 +90,7 @@ p{
     position: fixed;
     top: 0;
     right: -100%; /* Başlangıçta sağda gizli */
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background-color: var(--green);
     transition: right 0.3s ease-in-out;
@@ -112,7 +117,10 @@ p{
 
 .menu-checkbox:checked ~ .navbar-menu-container{
     right: 0%;
+    width: 100vw;
+    height: 100vh;
 }
+
 
 .menu-checkbox:checked ~ .navbar-menu-logo{
     display: none;
