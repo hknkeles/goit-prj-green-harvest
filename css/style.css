@@ -376,6 +376,11 @@ p{
     padding: 32px;
 }
 
+.vegetables-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
 .vegetables-card-title{
     color: var(--chianti);
     margin-bottom: 12px;
@@ -669,6 +674,10 @@ p{
     color: var(--white)
 }
 
+.footer-menu-item:hover{
+    color: var(--green);
+}
+
 
 .footer-address-list{
     display: flex;
@@ -679,6 +688,11 @@ p{
 .footer-address-list-item{
     color: var(--white);
 }
+
+.footer-address-list-item:hover{
+    color: var(--green);
+}
+
 
 .privacy-policy-container{
     margin-top: 124px;
